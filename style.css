@@ -17,7 +17,8 @@ font-size: 1.25em;
   justify-content: space-around;
   padding-top: 8px;
   padding-bottom: 10px;
-    border-bottom: 2px solid #fdfdfd;}
+    border-bottom: 2px solid #fdfdfd;
+  letter-spacing: .25em}
 
 
 #home{background-image: url(Images/image3.jpg);
@@ -25,17 +26,20 @@ font-size: 1.25em;
   background-position: center;
   display: flex;
   justify-content:space-around;
-  align-items: center;}
+  align-items: center;
+}
 
 #home h1 {
-  font-size: 6em;
+  font-size: 10vw;
   margin: 16px; cursor: default;
+  letter-spacing: .25em;
 }
 
 #home h3 {
   text-align: right;
-    font-size: 1.5em;
+    font-size: 2.75vw;
   margin: 0; cursor: default;
+  letter-spacing: .25em;
 }
 
 .page {
@@ -45,9 +49,10 @@ font-size: 1.25em;
     .dropbtn {
     background-color:#ffffff00;
     color: white;
-    font-size: 1em;
+    font-size: 2.22vw;
+    opacity: 0.5;
     border: none;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans",sans-serif;
      padding: 6px 8px 6px 16px;
   display: block;
   background: none;
@@ -55,6 +60,7 @@ font-size: 1.25em;
   text-align: left;
   cursor: pointer;
   outline: none;
+  letter-spacing: .25em
 }
 
 
@@ -96,4 +102,4 @@ font-size: 1.25em;
 .dropdown:hover
 .dropdown-content {display: block;}
 .dropdown:hover
-.dropbtn {background-color: #ffffff00;text-decoration: underline}
+.dropbtn {background-color: #ffffff00;text-decoration: none;}
